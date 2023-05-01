@@ -3,9 +3,7 @@ title: Managing State
 ---
 
 <Intro>
-
-As your application grows, it helps to be more intentional about how your state is organized and how the data flows between your components. Redundant or duplicate state is a common source of bugs. In this chapter, you'll learn how to structure your state well, how to keep your state update logic maintainable, and how to share state between distant components.
-
+Saat aplikasi Anda semakin berkembang, ada baiknya perhatikan dengan teliti bagaima anda mengorganisir *state* agar dapat melewati dari komponen ke komponen lainnya. Redundansi atau *state* ganda adalah sumber daripada bugs. Di bab ini, anda akan belajar bagaimana cara agar *state* tersutruktur dengan baik, bagaimana memelihara logika-pembaruan-*state* agar mudah dipelihara, dan bagaimana membagikan *state* antar komponen yang jauh satu sama lain.
 </Intro>
 
 <YouWillLearn isChapter={true}>
@@ -20,7 +18,7 @@ As your application grows, it helps to be more intentional about how your state 
 
 </YouWillLearn>
 
-## Reacting to input with state {/*reacting-to-input-with-state*/}
+## Me-React-kan input dengan state {/*reacting-to-input-with-state*/}
 
 With React, you won't modify the UI from code directly. For example, you won't write commands like "disable the button", "enable the button", "show the success message", etc. Instead, you will describe the UI you want to see for the different visual states of your component ("initial state", "typing state", "success state"), and then trigger the state changes in response to user input. This is similar to how designers think about UI.
 
